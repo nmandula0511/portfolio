@@ -115,10 +115,10 @@ def generate_pdf():
     story.append(Paragraph(
         "Senior AI Architect | AIOps Engineer | AWS & Azure<br/>"
         "+1 (334) 454-0408 &nbsp;|&nbsp; "
-        "<a href='mailto:nmandula0511@gmail.com' color='#1d4ed8'><u>nmandula0511@gmail.com</u></a> &nbsp;|&nbsp; "
-        "LinkedIn: <a href='https://www.linkedin.com/in/naveenmandula' color='#1d4ed8'><u>https://www.linkedin.com/in/naveenmandula</u></a><br/>"
-        "GitHub: <a href='https://github.com/nmandula0511' color='#1d4ed8'><u>https://github.com/nmandula0511</u></a> &nbsp;|&nbsp; "
-        "Portfolio: <a href='https://nmandula0511.github.io/portfolio/' color='#1d4ed8'><u>https://nmandula0511.github.io/portfolio/</u></a>",
+        "<a href='mailto:nmandula0511@gmail.com' color='#0284c7'><b><u>nmandula0511@gmail.com</u></b></a> &nbsp;|&nbsp; "
+        "<a href='https://www.linkedin.com/in/naveenmandula' color='#0284c7'><b><u>linkedin.com/in/naveenmandula</u></b></a><br/>"
+        "<a href='https://github.com/nmandula0511' color='#0284c7'><b><u>github.com/nmandula0511</u></b></a> &nbsp;|&nbsp; "
+        "Portfolio: <a href='https://nmandula0511.github.io/portfolio/' color='#0284c7'><b><u>nmandula0511.github.io/portfolio</u></b></a>",
         styles['ResumeContact']
     ))
     
