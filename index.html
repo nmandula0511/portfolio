@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Mandula | Senior AI Architect & AIOps Engineer</title>
+    <meta name="description" content="Professional portfolio of Naveen Mandula, Senior AI Architect and AIOps Engineer with 10+ years of experience building multi-agent systems, AWS cloud architectures, and streaming pipelines.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=1.2">
+</head>
+<body class="dark-theme">
+    <!-- Ambient Background Blobs -->
+    <div class="bg-glow-blob blob-primary"></div>
+    <div class="bg-glow-blob blob-secondary"></div>
+    <div class="bg-glow-blob blob-accent"></div>
+
+    <!-- Header Navigation -->
+    <header class="app-header">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="Naveen Mandula Home">
+                <span class="logo-accent">Naveen</span>&nbsp;<span class="logo-text">Mandula</span>
+            </a>
+            <nav class="main-nav" aria-label="Primary Navigation">
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                    <li><a href="#case-studies" class="nav-link">Case Studies</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle visual theme">
+                    <!-- Sun Icon (Visible in Dark Theme) -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2"></path>
+                        <path d="M12 20v2"></path>
+                        <path d="M4.93 4.93l1.41 1.41"></path>
+                        <path d="M17.66 17.66l1.41 1.41"></path>
+                        <path d="M2 12h2"></path>
+                        <path d="M20 12h2"></path>
+                        <path d="M6.34 17.66l-1.41 1.41"></path>
+                        <path d="M19.07 4.93l-1.41 1.41"></path>
+                    </svg>
+                    <!-- Moon Icon (Visible in Light Theme) -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                    </svg>
+                </button>
+                <a href="assets/Naveen_Mandula_Resume.pdf" target="_blank" class="btn btn-outline btn-sm download-resume">Resume</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-container">
+                        <span class="badge">10+ Years Experience</span>
+                        <span class="badge badge-accent">AWS & Azure Expertise</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Naveen Mandula
+                    </h1>
+                    <h2 class="hero-subtitle">Senior AI Architect & AIOps Engineer</h2>
+                    <p class="hero-description">
+                        I design, build, and optimize production-grade intelligent platforms and cloud-native backend systems. Specializing in **scalable agentic AI networks**, multi-agent orchestration frameworks, and real-time streaming data pipelines that drive operational autonomy and cost reductions for enterprise systems.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#case-studies" class="btn btn-primary">Explore Case Studies</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://linkedin.com/in/naveenmandula" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <span>linkedin.com/in/naveenmandula</span>
+                        </a>
+                        <a href="https://github.com/nmandula0511" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>github.com/nmandula0511</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image-container">
+                        <div class="hero-image-wrapper">
+                            <img src="assets/profile.jpg" alt="Naveen Mandula - Senior AI Architect & AIOps Engineer" class="hero-profile-img">
+                            <div class="hero-image-border"></div>
+                        </div>
+                        <div class="hero-image-glow"></div>
+                        
+                        <!-- Floating Glassmorphic Badges -->
+                        <div class="floating-badge badge-1">
+                            <span class="badge-dot dot-active"></span>
+                            <span>Senior AI Architect</span>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--secondary);"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            <span>AIOps & Multi-Agent</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Executive Metrics Dashboard -->
+        <section class="metrics-section">
+            <div class="container">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-num" data-val="10">10+</div>
+                        <div class="metric-label">Years AI & Data Science Experience</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-num" data-val="50">50+</div>
+                        <div class="metric-label">Production ML Models Deployed</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-num" data-val="140">140K+</div>
+                        <div class="metric-label">IoT Backup Systems Monitored</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-num" data-val="14">14%</div>
+                        <div class="metric-label">Transaction False Positive Reduction</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Expertise / Competencies -->
+        <section id="expertise" class="expertise-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Core Competencies</h2>
+                    <p class="section-subtitle">Architecting end-to-end intelligence layers, distributed data engineering, and secure governance models.</p>
+                </div>
+                <div class="expertise-grid">
+                    <!-- Column 1: Agentic Systems -->
+                    <div class="expertise-card">
+                        <div class="card-icon-wrapper text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M12 6v6l4 2"></path></svg>
+                        </div>
+                        <h3>Agentic AI & Orchestration</h3>
+                        <p>Specialized in multi-agent orchestration (Strands, LangGraph). Designing Agent-to-Agent (A2A) protocols with capability contracts (<code>agent_card.json</code>) and parallel tool execution via Model Context Protocol (MCP) Gateways.</p>
+                        <ul class="skills-tag-list">
+                            <li>Strands Framework</li>
+                            <li>A2A Communication</li>
+                            <li>MCP Gateways</li>
+                            <li>LangGraph</li>
+                            <li>LangChain</li>
+                            <li>ReAct / Planning</li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 2: Generative AI -->
+                    <div class="expertise-card">
+                        <div class="card-icon-wrapper text-accent">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+                        </div>
+                        <h3>Generative AI & LLMs</h3>
+                        <p>Deploying large model suites (Nova PRO, Claude, GPT-4) on cloud platforms. Structuring S3-native RAG systems, advanced chunking strategies, semantic caching, and strict drift evaluation tools.</p>
+                        <ul class="skills-tag-list">
+                            <li>Amazon Bedrock</li>
+                            <li>Amazon Nova PRO</li>
+                            <li>Claude / GPT-4</li>
+                            <li>S3 RAG Pipelines</li>
+                            <li>RAGAS & DeepEval</li>
+                            <li>Prompt Engineering</li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Cloud Infrastructure -->
+                    <div class="expertise-card">
+                        <div class="card-icon-wrapper text-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+                        </div>
+                        <h3>Cloud & Infrastructure</h3>
+                        <p>Constructing scalable backend architectures under strict IAM controls. Heavy automated deployments using Terraform and automated workflows within AWS (Bedrock, Fargate, Glue, Step Functions) and GCP (BigQuery, Vertex AI).</p>
+                        <ul class="skills-tag-list">
+                            <li>AWS Bedrock/SageMaker</li>
+                            <li>GCP Vertex AI</li>
+                            <li>AWS Glue ETL</li>
+                            <li>Terraform (IaC)</li>
+                            <li>Docker & EKS</li>
+                            <li>CI/CD Pipelines</li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Databases & Streaming -->
+                    <div class="expertise-card">
+                        <div class="card-icon-wrapper text-muted-color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+                        </div>
+                        <h3>Data & Streaming Systems</h3>
+                        <p>Setting up live telemetry ingestion pipelines and transactional databases. Strong knowledge of high-volume, event-driven data streaming structures with Apache Kafka, DynamoDB, PostgreSQL engines, and Graph DBs.</p>
+                        <ul class="skills-tag-list">
+                            <li>Apache Kafka</li>
+                            <li>DynamoDB</li>
+                            <li>Aurora (PostgreSQL)</li>
+                            <li>Neptune Graph DB</li>
+                            <li>PySpark ETL</li>
+                            <li>Real-Time Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Section (STAR framework) -->
+        <section id="case-studies" class="case-studies-section section-padding section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Case Studies & Major Projects</h2>
+                    <p class="section-subtitle">Realized system architectures and business value. Click any card to view the detailed engineering breakdown (STAR format).</p>
+                </div>
+                
+                <!-- Category Filters -->
+                <div class="filter-container">
+                    <button class="filter-btn active" data-filter="all">All Systems</button>
+                    <button class="filter-btn" data-filter="agentic">Agentic AI</button>
+                    <button class="filter-btn" data-filter="streaming">Data & MLOps</button>
+                    <button class="filter-btn" data-filter="analytics">Machine Learning</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Project 1: A2A Multi-Agent Diagnostics Engine -->
+                    <article class="project-card" data-category="agentic" data-project-id="strands-orchestrator">
+                        <div class="project-card-header">
+                            <span class="project-badge text-primary">AWS Native Agentic AI</span>
+                            <h3>A2A Multi-Agent Diagnostics Engine</h3>
+                        </div>
+                        <p class="project-card-summary">Re-architected vanilla Python sub-agents into a production A2A multi-agent framework on AWS Bedrock using Nova PRO. Configured dynamic agent capability discovery and parallel MCP Gateway integrations.</p>
+                        <div class="project-card-metrics">
+                            <div class="card-metric">
+                                <span class="card-metric-value">95%</span>
+                                <span class="card-metric-label">Auto-Remedy</span>
+                            </div>
+                            <div class="card-metric">
+                                <span class="card-metric-value">Nova PRO</span>
+                                <span class="card-metric-label">Base Model</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-card-action">View Architecture Breakdown &rarr;</button>
+                    </article>
+
+                    <!-- Project 2: Invincible Backup Real-Time Ingestion -->
+                    <article class="project-card" data-category="streaming" data-project-id="kafka-recovery">
+                        <div class="project-card-header">
+                            <span class="project-badge text-secondary">Event-Driven Pipeline</span>
+                            <h3>Invincible Backup Real-Time Ingestion</h3>
+                        </div>
+                        <p class="project-card-summary">Maintained Kafka data streams monitoring 140k+ active backup router nodes. Implemented real-time time-series logic flagging anomalous loops where devices failed to fall back from cellular to fiber paths.</p>
+                        <div class="project-card-metrics">
+                            <div class="card-metric">
+                                <span class="card-metric-value">140k+</span>
+                                <span class="card-metric-label">Active Routers</span>
+                            </div>
+                            <div class="card-metric">
+                                <span class="card-metric-value">Zero</span>
+                                <span class="card-metric-label">Truck Rolls</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-card-action">View Architecture Breakdown &rarr;</button>
+                    </article>
+
+                    <!-- Project 3: Enterprise LangGraph AI Platform -->
+                    <article class="project-card" data-category="agentic" data-project-id="ups-langgraph">
+                        <div class="project-card-header">
+                            <span class="project-badge text-primary">Multi-Agent System</span>
+                            <h3>Enterprise LangGraph AI Platform</h3>
+                        </div>
+                        <p class="project-card-summary">Designed an enterprise-scale multi-agent platform for UPS logistics and operations. Integrated secure vector search pipelines (FAISS + Pinecone) and robust model compliance guardrails.</p>
+                        <div class="project-card-metrics">
+                            <div class="card-metric">
+                                <span class="card-metric-value">PoC &rarr; Prod</span>
+                                <span class="card-metric-label">Scale</span>
+                            </div>
+                            <div class="card-metric">
+                                <span class="card-metric-value">Secure</span>
+                                <span class="card-metric-label">IAM / Governance</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-card-action">View Architecture Breakdown &rarr;</button>
+                    </article>
+
+                    <!-- Project 4: Visa Fraud Detection Neural Network -->
+                    <article class="project-card" data-category="analytics" data-project-id="visa-fraud">
+                        <div class="project-card-header">
+                            <span class="project-badge text-accent">Deep Learning</span>
+                            <h3>Real-Time Fraud Network Analytics</h3>
+                        </div>
+                        <p class="project-card-summary">Built high-throughput deep learning and gradient boosted models (XGBoost/TensorFlow) on GCP to score transaction risk, lowering false positive approvals without adding lag.</p>
+                        <div class="project-card-metrics">
+                            <div class="card-metric">
+                                <span class="card-metric-value">88%</span>
+                                <span class="card-metric-label">Accuracy</span>
+                            </div>
+                            <div class="card-metric">
+                                <span class="card-metric-value">-14%</span>
+                                <span class="card-metric-label">False Positives</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-card-action">View Architecture Breakdown &rarr;</button>
+                    </article>
+
+                    <!-- Project 5: Industrial Predictive Maintenance -->
+                    <article class="project-card" data-category="analytics" data-project-id="ge-iot">
+                        <div class="project-card-header">
+                            <span class="project-badge text-accent">IoT Machine Learning</span>
+                            <h3>Industrial Predictive Maintenance Platform</h3>
+                        </div>
+                        <p class="project-card-summary">Constructed PySpark and AWS architectures processing continuous sensor telemetry from power generators and aviation assets. Predicted equipment failures using ensemble methods.</p>
+                        <div class="project-card-metrics">
+                            <div class="card-metric">
+                                <span class="card-metric-value">79%</span>
+                                <span class="card-metric-label">Failure Prediction</span>
+                            </div>
+                            <div class="card-metric">
+                                <span class="card-metric-value">-11%</span>
+                                <span class="card-metric-label">Downtime</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-card-action">View Architecture Breakdown &rarr;</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section (Interactive Timeline) -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Career Timeline</h2>
+                    <p class="section-subtitle">Over a decade of scaling AI products and building core data mechanics in multi-billion dollar verticals.</p>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Item 1: Charter -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Feb 2026 – Present</div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior AWS Backend & AIOps Engineer</h3>
+                                <span class="timeline-company">Charter Communications (Spectrum)</span>
+                                <span class="timeline-location">Greenwood Village, CO</span>
+                            </div>
+                            <p>Architecting and delivering core AWS backend capabilities and scalable agentic AI models for the internal AIOps Platform. Automating root cause analysis (RCA) and incident remediation across major operational verticals.</p>
+                            <ul class="experience-highlights">
+                                <li>Re-engineered legacy Python agents to Amazon Bedrock & Nova PRO multi-agent layout.</li>
+                                <li>Implemented multi-threaded Model Context Protocol (MCP) gateways reducing UI response times.</li>
+                                <li>Configured AWS Glue ETL pipelines stream routing into Aurora PostgreSQL and DynamoDB.</li>
+                                <li>Engineered real-time Kafka correlation logic tracking 140k+ network backup nodes.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: UPS -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Feb 2022 – Feb 2026</div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>AI Engineer</h3>
+                                <span class="timeline-company">UPS (United Parcel Service)</span>
+                                <span class="timeline-location">Atlanta, GA</span>
+                            </div>
+                            <p>Led end-to-end design and transition of AI solutions from PoC to production. Built a secure multi-tenant platform on Bedrock and SageMaker supporting high-stakes workflows.</p>
+                            <ul class="experience-highlights">
+                                <li>Designed multi-agent frameworks using LangGraph with planner-executor patterns.</li>
+                                <li>Built S3 vector indexing (FAISS + Pinecone) for high-accuracy RAG structures.</li>
+                                <li>Set up centralized LLM governance, token optimization, caching, and guardrails.</li>
+                                <li>Monitored distributed microservices via OpenTelemetry and CloudWatch.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: Visa -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">May 2019 – Jan 2022</div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Senior Data Scientist</h3>
+                                <span class="timeline-company">Visa Inc.</span>
+                                <span class="timeline-location">Foster City, CA</span>
+                            </div>
+                            <p>Built deep learning scoring models evaluating billion-transaction pipelines in real-time, focusing on fraud reduction and network optimization.</p>
+                            <ul class="experience-highlights">
+                                <li>Developed neural networks and gradient boosting models with 88% fraud accuracy.</li>
+                                <li>Optimized payment networks on GCP (BigQuery, Vertex AI, Dataflow), reducing processing time by 55%.</li>
+                                <li>Established secure PCI-compliant MLOps pipelines with MLflow and Kubernetes on Azure.</li>
+                                <li>Implemented SHAP/LIME explainability protocols for model auditing.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 4: GE -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jul 2016 – Apr 2019</div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Machine Learning Engineer</h3>
+                                <span class="timeline-company">General Electric (GE)</span>
+                                <span class="timeline-location">Boston, MA</span>
+                            </div>
+                            <p>Designed predictive modeling and IoT sensor frameworks to maximize efficiency and reduce downtime across industrial machinery fleets.</p>
+                            <ul class="experience-highlights">
+                                <li>Built failure-forecasting sensor pipelines, cutting unplanned downtime by 11%.</li>
+                                <li>Designed supply chain ARIMA/LSTM models, reducing stockouts by 14%.</li>
+                                <li>Provisioned secure VPC infrastructure with Terraform and PySpark on AWS Redshift.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 5: Abbott -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Aug 2013 – Jun 2016</div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Data Scientist</h3>
+                                <span class="timeline-company">Abbott Laboratories</span>
+                                <span class="timeline-location">Abbott Park, IL</span>
+                            </div>
+                            <p>Engineered statistical models and clinical trial analytics optimizing device quality and pharmaceutical inventory pipelines.</p>
+                            <ul class="experience-highlights">
+                                <li>Reduced manufacturing product defects by 9% using predictive models.</li>
+                                <li>Constructed ARIMA pharmaceutical demand planning models with 86% accuracy.</li>
+                                <li>Applied survival analysis to cardiovascular/diabetes datasets accelerating FDA filings.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section section-padding section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">Academic foundations in Computer Science and Engineering.</p>
+                </div>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-degree-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+                        </div>
+                        <div class="education-details">
+                            <h3>Master of Science in Computer Science</h3>
+                            <p class="school">Auburn University</p>
+                            <p class="date">2012 – 2013</p>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-degree-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+                        </div>
+                        <div class="education-details">
+                            <h3>Bachelor of Technology in Computer Science & Engineering</h3>
+                            <p class="school">Jawaharlal Nehru Technological University (JNTU)</p>
+                            <p class="location">Hyderabad, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact & Collaboration</h2>
+                    <p class="section-subtitle">Interested in scalable AI agents, backend MLOps, or system architectures? Let's connect.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's build something intelligent.</h3>
+                        <p>Feel free to reach out via email, phone, or LinkedIn. I am always open to discussing new systems architecture, agentic AI frameworks, and optimization strategies.</p>
+                        
+                        <div class="contact-links">
+                            <a href="mailto:nmandula0511@gmail.com" class="contact-link-item">
+                                <div class="link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="link-text">
+                                    <span class="label">Email Direct</span>
+                                    <span class="val">nmandula0511@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="tel:+13344540408" class="contact-link-item">
+                                <div class="link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="link-text">
+                                    <span class="label">Mobile</span>
+                                    <span class="val">+1 (334) 454-0408</span>
+                                </div>
+                            </a>
+                            <a href="https://linkedin.com/in/naveenmandula" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+                                <div class="link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                                </div>
+                                <div class="link-text">
+                                    <span class="label">LinkedIn</span>
+                                    <span class="val">linkedin.com/in/naveenmandula</span>
+                                </div>
+                            </a>
+                            <a href="https://github.com/nmandula0511" target="_blank" rel="noopener noreferrer" class="contact-link-item">
+                                <div class="link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                </div>
+                                <div class="link-text">
+                                    <span class="label">GitHub</span>
+                                    <span class="val">github.com/nmandula0511</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <form id="portfolio-contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" name="name" required placeholder="John Doe">
+                                <span class="error-msg" id="name-error">Please enter your name.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" name="email" required placeholder="john@example.com">
+                                <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" name="subject" required placeholder="Project Collaboration">
+                                <span class="error-msg" id="subject-error">Please enter a subject.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" name="message" required rows="5" placeholder="Let's talk about building multi-agent frameworks..."></textarea>
+                                <span class="error-msg" id="message-error">Please write a message.</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <span class="btn-text">Send Message</span>
+                                <span class="spinner hidden"></span>
+                            </button>
+                        </form>
+                        <div id="form-success" class="form-success-alert hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                            <div>
+                                <h4>Message Sent Successfully!</h4>
+                                <p>Thank you. Your message has been logged, and I will get back to you shortly.</p>
+                                <button id="form-reset-btn" class="btn btn-secondary btn-sm" style="margin-top: 16px; font-size: 0.8rem; padding: 6px 12px;">Send Another Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Naveen Mandula. All rights reserved.</p>
+
+        </div>
+    </footer>
+
+    <!-- Detailed Case Study Modal -->
+    <div id="project-modal" class="modal-backdrop hidden" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+        <div class="modal-card">
+            <button id="modal-close" class="modal-close-btn" aria-label="Close detail modal">&times;</button>
+            <div class="modal-content">
+                <span id="modal-badge" class="badge">AWS System</span>
+                <h2 id="modal-title">Case Study</h2>
+                
+                <div class="modal-grid">
+                    <!-- Tech Specs -->
+                    <div class="modal-specs">
+                        <h4>System Specs</h4>
+                        <ul id="modal-specs-list">
+                            <li><strong>Framework:</strong> Strands</li>
+                            <li><strong>Model:</strong> Nova PRO</li>
+                        </ul>
+                    </div>
+
+                    <!-- Impact Metric -->
+                    <div class="modal-impact">
+                        <h4>Measurable Impact</h4>
+                        <div class="impact-stat" id="modal-impact-val">-35% Latency</div>
+                    </div>
+                </div>
+
+                <hr class="modal-divider">
+
+                <!-- STAR breakdown -->
+                <div class="star-container">
+                    <section class="star-section">
+                        <h3>Situation</h3>
+                        <p id="star-situation">Situation details</p>
+                    </section>
+                    <section class="star-section">
+                        <h3>Task</h3>
+                        <p id="star-task">Task details</p>
+                    </section>
+                    <section class="star-section">
+                        <h3>Action</h3>
+                        <p id="star-action">Action details</p>
+                        <!-- Inline SVG Architecture Diagram Target -->
+                        <div id="modal-architecture" class="diagram-wrapper"></div>
+                    </section>
+                    <section class="star-section">
+                        <h3>Result</h3>
+                        <p id="star-result">Result details</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
