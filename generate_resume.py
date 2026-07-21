@@ -118,7 +118,7 @@ def generate_pdf():
         "<a href='mailto:nmandula0511@gmail.com'><font color='#1f2937'>nmandula0511@gmail.com</font></a> &nbsp;|&nbsp; "
         "<a href='https://www.linkedin.com/in/naveenmandula'><font color='#1f2937'>LinkedIn</font></a> &nbsp;|&nbsp; "
         "<a href='https://github.com/nmandula0511'><font color='#1f2937'>GitHub</font></a> &nbsp;|&nbsp; "
-        "<a href='https://nmandula0511.github.io/portfolio/'><font color='#1f2937'>Portfolio</font></a>",
+        "<a href='https://website-zeta-neon-17.vercel.app/'><font color='#1f2937'>Portfolio</font></a>",
         styles['ResumeContact']
     ))
     
