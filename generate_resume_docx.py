@@ -123,17 +123,6 @@ def generate_docx():
         run.font.size = Pt(11)
         run.font.bold = True
         run.font.color.rgb = PRIMARY_COLOR
-        
-        # Add visual bottom border to section header
-        pPr = p._p.get_or_add_pPr()
-        pBdr = OxmlElement('w:pBdr')
-        bottom = OxmlElement('w:bottom')
-        bottom.set(qn('w:val'), 'single')
-        bottom.set(qn('w:sz'), '12') # 1.5 pt
-        bottom.set(qn('w:space'), '1')
-        bottom.set(qn('w:color'), '1E3A8A')
-        pBdr.append(bottom)
-        pPr.append(pBdr)
 
     # 1. Professional Summary
     add_section_header("PROFESSIONAL SUMMARY")
