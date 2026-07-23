@@ -96,21 +96,21 @@ def generate_docx():
     run_sep1.font.size = Pt(9)
     
     # LinkedIn (Hyperlinked)
-    add_hyperlink(p_contact, "LinkedIn", "https://www.linkedin.com/in/naveenmandula", color="0284C7", underline=True)
+    add_hyperlink(p_contact, "linkedin", "https://www.linkedin.com/in/naveenmandula", color="0284C7", underline=True)
     
     run_sep2 = p_contact.add_run("  |  ")
     run_sep2.font.name = 'Arial'
     run_sep2.font.size = Pt(9)
     
     # GitHub (Hyperlinked)
-    add_hyperlink(p_contact, "GitHub", "https://github.com/nmandula0511", color="0284C7", underline=True)
+    add_hyperlink(p_contact, "github", "https://github.com/nmandula0511", color="0284C7", underline=True)
     
     run_sep3 = p_contact.add_run("  |  ")
     run_sep3.font.name = 'Arial'
     run_sep3.font.size = Pt(9)
     
     # Portfolio (Hyperlinked)
-    add_hyperlink(p_contact, "Portfolio", "https://website-zeta-neon-17.vercel.app/", color="0284C7", underline=True)
+    add_hyperlink(p_contact, "portfolio", "https://website-zeta-neon-17.vercel.app/", color="0284C7", underline=True)
 
     # Section Helper
     def add_section_header(title):

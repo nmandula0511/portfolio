@@ -116,9 +116,9 @@ def generate_pdf():
         "Senior AI Architect | AIOps Engineer | AWS & Azure<br/>"
         "+1 (334) 454-0408 &nbsp;|&nbsp; "
         "<a href='mailto:nmandula0511@gmail.com'><font color='#0284c7'><u>nmandula0511@gmail.com</u></font></a> &nbsp;|&nbsp; "
-        "<a href='https://www.linkedin.com/in/naveenmandula'><font color='#0284c7'><u>LinkedIn</u></font></a> &nbsp;|&nbsp; "
-        "<a href='https://github.com/nmandula0511'><font color='#0284c7'><u>GitHub</u></font></a> &nbsp;|&nbsp; "
-        "<a href='https://website-zeta-neon-17.vercel.app/'><font color='#0284c7'><u>Portfolio</u></font></a>",
+        "<a href='https://www.linkedin.com/in/naveenmandula'><font color='#0284c7'><u>linkedin</u></font></a> &nbsp;|&nbsp; "
+        "<a href='https://github.com/nmandula0511'><font color='#0284c7'><u>github</u></font></a> &nbsp;|&nbsp; "
+        "<a href='https://website-zeta-neon-17.vercel.app/'><font color='#0284c7'><u>portfolio</u></font></a>",
         styles['ResumeContact']
     ))
     
